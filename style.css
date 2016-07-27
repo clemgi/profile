@@ -1,0 +1,93 @@
+h1 {
+  color: #0f4c64;
+  font-size: 22px;
+  letter-spacing: 10px;
+}
+
+h1, h2, p, ul {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h2 {
+  color: #004f7c;
+  font-size: 15px;
+}
+
+h3 {
+  color: #005e83;
+}
+
+p{
+  style: none;
+  color: #3c7460;
+  font-size: 15px;
+}
+
+body {
+  background: #EBEBEB;
+  background-image: url(https://images.unsplash.com/photo-1452110040644-6751c0c95836?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=a441e2ab516fdcc2444eb8ddf65b923e)
+}
+/*https://unsplash.it/200/300*/
+body {
+    display: block;
+    margin: 8px;
+}
+
+a{
+  text-decoration: none;
+  color: #058b8c;
+}
+.list-inlign {
+  list-style: none;
+  padding-left: 0;
+}
+
+.btn {
+  background-color: rgba(241, 240, 234, 1.0);
+  color:  #3c7460;
+  padding: 5px;
+  text-decoration: none;
+  border-radius: 4px;
+}
+.list-inlign, li {
+  text-decoration: none;
+  text-align: center;
+  display: inline-block;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #e3d9c6;
+}
+.container {
+  width: 500px;
+  margin: 30px auto;
+}
+.card{
+  background-color: white;
+  padding: 10px;
+  margin: 40px;
+}
+
+div {
+  display: block;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.avatar1 {
+  border-radius: 50%;
+  border: 1px solid #cccccc;
+  width: 100px;
+  height: 100px;
+}
+
+
+.text-center:hover{
+  box-shadow: 5px 5px 6px rgba(0, 0, 0, 0.2);
+  /*transform: scale(1.1);*/
+}
